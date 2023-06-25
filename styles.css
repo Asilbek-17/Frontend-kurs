@@ -1,0 +1,122 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.site-header {
+    padding-top: 50px;
+    padding-bottom: 450px;
+    background-image: url('./images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title {
+    width: 1100px;
+    font-size: 40px;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.child-box {
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    width: 400px;
+    padding: 15px;
+    background-color: #023bc188;
+}
+
+.child-text {
+    font-size: 20px;
+    color: #fff;
+}
+
+.hero {
+    padding-top: 400px;
+    padding-bottom: 500px;
+    background-image: url('./images/html.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-css {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('./images/css.jpeg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section-bootstrap {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('./images/bootstrap-5.0-illustration.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-sass {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-image: url('./images/sass.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-js {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-image: url('./images/js.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-react {
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background-image: url('./images/react.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
